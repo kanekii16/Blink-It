@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.blink-it-navbar{
+    border-bottom: 1px solid rgb(238, 238, 238);
+    position: sticky;
+    top:0px;
+    height: 80px;
+    background-color: #fafafa;
+
+}
+
+.vertical-line{
+    border-left: 1px solid rgb(238, 238, 238);
+    height: 100%;
+}
+
+.location > p{
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+.search{
+    background-color: #fafafa;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    padding: 10px;
+    width: 30vw;
+}
+
+.search > input{
+    border: none;
+    width: 90%;
+    background-color: transparent;
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+}
+
+.search > input:focus{
+    outline: none;
+}
+
+.scrollable-div-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+    width: 95vw;
+    margin-inline:auto;
+}
+
+.list{
+    width: 100%;
+    margin-inline:auto;
+    white-space: nowrap;
+}
+
+.list > div{
+    display: inline-block;
+    margin: 10px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.categories{
+    display: flex;
+    flex-direction: row;
+    margin-inline: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95vw;
+    align-items: center;
+}
+
+.category-div{
+    width: 95vw;
+    margin-inline:auto;
+    white-space: nowrap;
+}
+
+.category-row{
+    width: 100%;
+    overflow-x: auto;
+}
+
+.category-row > .card{
+    width: 200px;
+    display: inline-block;
+    margin: 10px;
+    
+}
+
+.time-taken{
+    font-size: 9px;
+    font-weight: 700;
+}
+
+.product-name{
+    font-size: 13px;
+    font-weight: 600;
+}
+.product-weight{
+    color: #666666;
+}
+
+.product-price{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.my-footer{
+    width: 95vw;
+    margin-inline:auto;
+    align-items: center;
+    color: #666666;
+    
+    
+}
+.my-footer > .row > div{
+    align-items: center;
+}
+
+.footer-row-1{
+
+    justify-content: space-between;
+
+    
+    
+}
+.footer-row-1 > div > a{
+    text-decoration: none;
+    color: #666666;
+}
+
+.footer-row-1 > div > a > li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer-row-1-heading{
+    font-size: 18px;
+    font-weight: 600;
+}
+.my-footer > .row-2{
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+
+
+.row-2 > .column-two > span > button{
+    font-size: 0.25px;
+    border: none;
+}
+.row-2 > .column-three > a{
+    text-decoration: none;
+    color: #0f0e0e;
+}
+.row-2 > .column-three > a > i{
+    margin: 10px;
+}
